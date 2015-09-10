@@ -1,0 +1,8 @@
+- start the ZooKeeper server:
+$ zkServer.sh start
+
+- run the ClusterMonitor.java first
+with "localhost:2181" as its only argument.
+
+- then run the ClusterClient.java
+with "localhost:2181" as its only argument.
